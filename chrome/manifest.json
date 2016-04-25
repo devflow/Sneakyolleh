@@ -1,0 +1,11 @@
+{
+  "name": "Sneakyolleh",
+  "version": "1.0",
+  "description": "Bypass the olleh additional non-contracted device detection.",
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
