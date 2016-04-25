@@ -1,11 +1,11 @@
 #Sneakyolleh
 
 ###Notes
-1. the browser except chrome is not currently supported.
-2. Latest confirmed date : ``04.25.2016``
+Latest confirmed date : ``04.25.2016``
 
 ###Supported browsers
 1. Chrome
+2. Internet Explorer (and ohter browsers that can using fiddle)
 
 ###How to work it
 if below conditions are all true, insert Referer(value is request url) into your request header.
