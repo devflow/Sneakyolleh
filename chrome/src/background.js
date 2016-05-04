@@ -21,19 +21,15 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
           value: url
         });
 
-        console.log("applied!");
-
         ret.requestHeaders = headers;
       }
-
-
     }
 
     return ret;
   },
   {
     urls: [
-      "http://*/"
+      "http://*/*"
     ]
   },
   ['requestHeaders', 'blocking']
