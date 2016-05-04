@@ -3,7 +3,7 @@
   "version": "1.0",
   "homepage_url": "https://github.com/devflow/Sneakyolleh",
   "description": "Bypass the olleh additional non-contracted device detection.",
-  "permissions": ["webRequest", "webRequestBlocking", "http://*/"],
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/*"],
   "background": {
     "scripts": ["background.js"]
   },
