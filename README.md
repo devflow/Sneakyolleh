@@ -4,8 +4,8 @@
 Latest confirmed date : ``05.04.2016``
 
 ###Supported browsers
-1. Chrome (crx)
-2. Firefox (xpi)
+1. Chrome (crx) - `Not allowed from Google's extension store.`
+2. Firefox (xpi) - `Allowed by Mozilla Add-ons Team`
 3. Internet Explorer (and ohter browsers that can using fiddle)
 
 ###How to work it
