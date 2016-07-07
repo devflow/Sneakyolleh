@@ -6,6 +6,10 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
       var url = info.url;
       var headers = info.requestHeaders;
 
+      if(url.search("210.217.72.147") > -1){
+        return {cancel: true};
+      }
+
       var foundReferer = false;
 
       for( var i = 0, l = headers.length; i < l; ++i ) {
@@ -20,7 +24,6 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
           name: "Referer",
           value: url
         });
-
         ret.requestHeaders = headers;
       }
     }

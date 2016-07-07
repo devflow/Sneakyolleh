@@ -1,6 +1,6 @@
 {
   "name": "Sneakyolleh",
-  "version": "1.1",
+  "version": "1.2",
   "homepage_url": "https://github.com/devflow/Sneakyolleh",
   "description": "Bypass the olleh additional non-contracted device detection.",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/*"],
