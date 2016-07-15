@@ -1,7 +1,7 @@
 #Sneakyolleh
 
 ###Notes
-Latest confirmed date : ``05.04.2016``
+Latest confirmed date : ``07.07.2016``
 
 ###Supported browsers
 1. Chrome (crx) - `Not allowed from Google's extension store.`
